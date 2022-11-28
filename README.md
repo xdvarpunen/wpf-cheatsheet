@@ -1,6 +1,6 @@
 # README
 
-WPF cheatsheet web site.
+WPF cheatsheet [web site](https://xdvarpunen.github.io/wpf-cheatsheet/).
 
 ## .gitignore
 
