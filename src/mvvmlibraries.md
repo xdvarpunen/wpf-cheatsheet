@@ -14,6 +14,7 @@
 - Prism
 - MVVM Light
 - [Elmish.WPF](https://github.com/elmish/Elmish.WPF)
+- [Win Application Framework (WAF)](https://github.com/jbe2277/waf)
 
 Links
 
