@@ -1,0 +1,4 @@
+site_name: WPF Cheatsheet
+site_dir: docs
+docs_dir: src
+theme: readthedocs
