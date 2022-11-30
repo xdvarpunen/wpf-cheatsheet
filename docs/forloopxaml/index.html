@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Windows Icons - WPF Cheatsheet</title>
+    <title>XAML and For-loop - WPF Cheatsheet</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Windows Icons";
-        var mkdocs_page_input_path = "icon.md";
+        var mkdocs_page_name = "XAML and For-loop";
+        var mkdocs_page_input_path = "forloopxaml.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -48,20 +48,14 @@
                 <li class="toctree-l1"><a class="reference internal" href="../commandlineargument/">Command-line parameter</a>
                 </li>
               </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../forloopxaml/">XAML and For-loop</a>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">XAML and For-loop</a>
+    <ul class="current">
+    </ul>
                 </li>
               </ul>
-              <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="./">Windows Icons</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#the-visual-studio-image-library">The Visual Studio Image Library</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#winui">WinUI</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#other-options">Other Options</a>
-    </li>
-    </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../icon/">Windows Icons</a>
                 </li>
               </ul>
               <ul>
@@ -86,7 +80,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-      <li>Windows Icons</li>
+      <li>XAML and For-loop</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -95,36 +89,19 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="windows-icons">Windows Icons</h1>
-<p>Windows icons were in Visual Studio Programs folder for Visual Studio 2005, 2008 and 2010. After that they were downloadable as separate zip file. Later WinUI provides the latest Windows icons.</p>
-<h2 id="the-visual-studio-image-library">The Visual Studio Image Library</h2>
-<blockquote>
-<p>For Visual Studio 2012, 2013, 2015, 2017, and 2019: The icons are not in the program folder any more.</p>
-<p>The Visual Studio 2010 Image Library contains application images that appear in Microsoft Windows, the Office system, Microsoft Visual Studio, and other Microsoft software. You can use this set of over 1,000 images to create applications that look visually consistent with Microsoft software.</p>
-</blockquote>
+                <h1 id="xaml-and-for-loop">XAML and For-loop</h1>
+<p>Coming from browser JavaScript based apps you would expect XAML have for loop. There is none. Use ItemsControl, DataGrid and other equivalent controls as substitute.</p>
 <ul>
-<li><a href="https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/ms247035(v=vs.100)?redirectedfrom=MSDN">The Visual Studio 2010 Image Library</a></li>
-<li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=35825">Visual Studio Image Library Download</a></li>
-<li><a href="https://stackoverflow.com/questions/3547937/can-i-use-the-systems-default-save-new-etc-file-icons-in-wpf">Stackoverflow - Can I use the system's default save/new/etc file icons in WPF?</a></li>
-<li><a href="https://stackoverflow.com/questions/4142203/does-net-have-icon-collections">Stackoverflow - Does .NET have icon collections?</a></li>
-</ul>
-<h2 id="winui">WinUI</h2>
-<p>WinUI provides Windows icons.</p>
-<ul>
-<li><a href="https://learn.microsoft.com/en-us/windows/apps/design/style/segoe-ui-symbol-font">Segoe MDL2 Assets icons</a></li>
-<li><a href="https://learn.microsoft.com/en-us/windows/apps/design/style/segoe-fluent-icons-font">Segoe Fluent Icons font</a></li>
-</ul>
-<h2 id="other-options">Other Options</h2>
-<ul>
-<li>Create yourself</li>
-<li>Use NuGets available</li>
+<li><a href="https://stackoverflow.com/questions/20165982/something-like-for-loop-in-xaml">Stackoverflow - Something Like For Loop in XAML</a></li>
+<li><a href="https://learn.microsoft.com/en-us/dotnet/api/system.windows.controls.itemscontrol?view=windowsdesktop-7.0">ItemsControl Class</a></li>
+<li><a href="https://learn.microsoft.com/en-us/dotnet/api/system.windows.controls.datagrid?view=windowsdesktop-7.0">DataGrid Class</a></li>
 </ul>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../forloopxaml/" class="btn btn-neutral float-left" title="XAML and For-loop"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../mvvmlibraries/" class="btn btn-neutral float-right" title="MVVM Libraries">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../commandlineargument/" class="btn btn-neutral float-left" title="Command-line parameter"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../icon/" class="btn btn-neutral float-right" title="Windows Icons">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -147,10 +124,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../forloopxaml/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../commandlineargument/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../mvvmlibraries/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../icon/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
